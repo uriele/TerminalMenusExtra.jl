@@ -1,0 +1,20 @@
+name = "TerminalMenusExtra"
+uuid = "89855107-8cae-4551-95ff-b6b4c3964c43"
+authors = ["Marco Menarini"]
+version = "0.2.0-DEV"
+
+[deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+D3Trees = "e3df1716-f71e-5df9-9e2d-98e193103c45"
+D3TypeTrees = "41994980-b535-5476-86a1-6733688e0e4a"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
